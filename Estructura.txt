@@ -1,0 +1,22 @@
+trading-ia/
+├── trading-ai-env/       # Entorno virtual
+├── data/
+│   ├── raw/              # Datos crudos
+│   └── processed/        # Datos procesados
+├── notebooks/
+│   └── exploration.ipynb # Notebooks de análisis
+├── src/
+│   ├── __init__.py
+│   ├── data_processing.py
+│   ├── feature_engineering.py
+│   ├── model_training.py
+│   ├── backtesting.py
+│   └── live_trading.py
+├── models/               # Modelos entrenados
+├── tests/                # Pruebas unitarias
+├── config.py             # Configuraciones
+├── .env                  # Variables de entorno (API keys)
+├── .gitignore            # Ignorar archivos sensibles
+├── README.md
+├── requirements.txt
+└── main.py               # Punto de entrada
